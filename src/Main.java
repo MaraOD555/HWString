@@ -13,5 +13,14 @@ public class Main {
         String lastName = "Ivanov";
         String fullName = lastName + " " + firstName + " " + middleName;
         System.out.println("ФИО сотрудника - " + fullName);
+
+        //Задача 2
+        //Напишите программу, которая изменит написание Ф. И. О. сотрудника
+        // с  “Ivanov Ivan Ivanovich” на полностью заглавные буквы.
+        //Результат программы выведите в консоль в формате: ”Данные ФИО сотрудника для заполнения отчета — …”
+
+        String fullNameUpper = fullName.toUpperCase();
+        System.out.println("Данные ФИО сотрудника для заполнения отчета - " + fullNameUpper);
+
     }
 }
