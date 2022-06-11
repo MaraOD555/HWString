@@ -30,12 +30,13 @@ public class Main {
         String [] fullName1 = fullName.split (" ");
         for (int i = 0; i <= fullName1.length-1; i++) {
             if (fullName1[i].contains("ё")) {
-               fullName1[i] = fullName1[i].replace("ё" , "е");
+                fullName1[i] = fullName1[i].replace("ё", "е");
             }
+        }
             String fullNameReplace = fullName1[0] + " " + fullName1[1] + " " + fullName1[2];
             System.out.println();
             System.out.print("Данные ФИО сотрудника —  " + fullNameReplace);
-        }
+
 
     }
 }
